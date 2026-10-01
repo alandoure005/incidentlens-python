@@ -1,0 +1,4 @@
+{"timestamp":"2026-01-01T12:00:00Z","route":"/healthz","status":200,"duration_ms":3}
+{"timestamp":"2026-01-01T12:00:01Z","route":"/orders","status":201,"duration_ms":75}
+{"timestamp":"2026-01-01T12:00:02Z","route":"/orders","status":503,"duration_ms":900}
+{"timestamp":"2026-01-01T12:00:03Z","route":"/inventory","status":200,"duration_ms":20}

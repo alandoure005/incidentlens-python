@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "incidentlens-python"
+version = "0.1.0"
+description = "A streaming JSONL service-log analyzer that reports server-error rates, latency histogram bounds, and per-route summaries. It can fail a deployment check when an input sample exceeds an error budget."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+incidentlens = "incidentlens:main"
+
+[tool.setuptools]
+py-modules = ["incidentlens"]
